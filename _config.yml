@@ -86,10 +86,9 @@ author:
   location         : "Zhejiang University, Hangzhou"
   employer         :
   pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
-  googlescholar    : "http://yourfullgooglescholarurl.com"
+  # googlescholar    : ""
   email            : "3170102415@zju.edu.cn"
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
-  weixin           : "18888920713"
   uri              :
   bitbucket        :
   codepen          :
@@ -104,13 +103,13 @@ author:
   impactstory      : #"https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
   lastfm           :
   linkedin         :
-  orcid            : "http://orcid.org/yourorcidurl"
+  # orcid            : "http://orcid.org/yourorcidurl"
   pinterest        :
   soundcloud       :
   stackoverflow    : # http://stackoverflow.com/users/123456/username
   steam            :
   tumblr           :
-  twitter          : "replacethistwitterhandle"
+  twitter          : "8jR3agx5iCOgluT"
   vine             :
   weibo            :
   xing             :
