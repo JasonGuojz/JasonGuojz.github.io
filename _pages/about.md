@@ -18,6 +18,4 @@ Currently I'm focusing on knowledge extraction and weak supervision relayed topi
 2018
 - Zhejiang University First Class Scholarship                                                                              2018
 - Zhejiang University Third Class Scholarship                                                                              2019
-- Second prize of College Student Physics Academic Competition
-2019
 ## Publications
