@@ -8,4 +8,4 @@ redirect_from:
   - /about.html
 ---
 
-This is Guo Jiazhen's home on the web!
+Welcome to my homepage! I am a Senior student at Zhejiang University. 
