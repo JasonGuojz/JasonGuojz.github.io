@@ -14,7 +14,7 @@ rule learning 规则学习
 
 [first order logic rules ](https://leanprover.github.io/logic_and_proof/first_order_logic.html)——[一阶逻辑]([https://zh.wikipedia.org/wiki/%E4%B8%80%E9%98%B6%E9%80%BB%E8%BE%91](https://zh.wikipedia.org/wiki/一阶逻辑))
 
-![image-20200726120840738](A%20Short%20Introduction%20to%20Probabilistic%20Soft%20Logic/image-20200726120840738.png)
+![image-20200726120840738](/images/A Short Introduction to Probabilistic Soft Logic/image-20200726120840738.png)
 
 Atom 原子公式：[命题逻辑]([https://zh.wikipedia.org/wiki/%E5%91%BD%E9%A2%98%E9%80%BB%E8%BE%91](https://zh.wikipedia.org/wiki/命题逻辑))
 
@@ -38,43 +38,43 @@ Atom 原子公式：[命题逻辑]([https://zh.wikipedia.org/wiki/%E5%91%BD%E9%A
 
 <img src="/images/A Short Introduction to Probabilistic Soft Logic/image-20200817235935237.png" alt="image-20200817235935237" width = "50%" height = "50%" />
 
-<img src="A%20Short%20Introduction%20to%20Probabilistic%20Soft%20Logic/image-20200818094838660.png" alt="image-20200818094838660" style="zoom: 67%;" />
+<img src="/images/A Short Introduction to Probabilistic Soft Logic/image-20200818094838660.png" alt="image-20200818094838660" width = "50%" height = "50%" />
 
-<img src="A%20Short%20Introduction%20to%20Probabilistic%20Soft%20Logic/image-20200818094909425.png" alt="image-20200818094909425" style="zoom:67%;" />
-
-
-
-<img src="A%20Short%20Introduction%20to%20Probabilistic%20Soft%20Logic/image-20200818095543339.png" alt="image-20200818095543339" style="zoom:67%;" />
+<img src="/images/A Short Introduction to Probabilistic Soft Logic/image-20200818094909425.png" alt="image-20200818094909425" width = "50%" height = "50%" />
 
 
 
-<img src="A%20Short%20Introduction%20to%20Probabilistic%20Soft%20Logic/image-20200818095145583.png" alt="image-20200818095145583" style="zoom:67%;" />
+<img src="/images/A Short Introduction to Probabilistic Soft Logic/image-20200818095543339.png" alt="image-20200818095543339" width = "50%" height = "50%" />
 
-<img src="A%20Short%20Introduction%20to%20Probabilistic%20Soft%20Logic/image-20200818095205647.png" alt="image-20200818095205647" style="zoom:67%;" />
 
-<img src="A%20Short%20Introduction%20to%20Probabilistic%20Soft%20Logic/image-20200818104152253.png" alt="image-20200818104152253" style="zoom:50%;" />
 
-<img src="A%20Short%20Introduction%20to%20Probabilistic%20Soft%20Logic/image-20200818152654995.png" alt="image-20200818152654995" style="zoom:67%;" />
+<img src="/images/A Short Introduction to Probabilistic Soft Logic/image-20200818095145583.png" alt="image-20200818095145583" width = "50%" height = "50%" />
+
+<img src="/images/A Short Introduction to Probabilistic Soft Logic/image-20200818095205647.png" alt="image-20200818095205647" width = "50%" height = "50%" />
+
+<img src="/images/A Short Introduction to Probabilistic Soft Logic/image-20200818104152253.png" alt="image-20200818104152253" style="zoom:50%;" />
+
+<img src="/images/A Short Introduction to Probabilistic Soft Logic/image-20200818152654995.png" alt="image-20200818152654995" width = "50%" height = "50%" />
 
 定义：
 
-<img src="A%20Short%20Introduction%20to%20Probabilistic%20Soft%20Logic/image-20200818155834481.png" alt="image-20200818155834481" style="zoom: 80%;" />
+<img src="/images/A Short Introduction to Probabilistic Soft Logic/image-20200818155834481.png" alt="image-20200818155834481" width = "50%" height = "50%" />
 
 
 
-<img src="A%20Short%20Introduction%20to%20Probabilistic%20Soft%20Logic/image-20200818154410912.png" alt="image-20200818154410912" style="zoom: 80%;" />
+<img src="/images/A Short Introduction to Probabilistic Soft Logic/image-20200818154410912.png" alt="image-20200818154410912" width = "50%" height = "50%" />
 
 **使得 Rules will behave like boolean logic** (布尔逻辑用真值时，条件语句的真值表一致)
 
-<img src="A%20Short%20Introduction%20to%20Probabilistic%20Soft%20Logic/image-20200818153523164.png" alt="image-20200818153523164" style="zoom:67%;" />
+<img src="/images/A Short Introduction to Probabilistic Soft Logic/image-20200818153523164.png" alt="image-20200818153523164" width = "50%" height = "50%" />
 
 satisfaction：左边ground atoms的值要大于等于 右边 atoms 的值
 
-<img src="A%20Short%20Introduction%20to%20Probabilistic%20Soft%20Logic/image-20200818153533540.png" alt="image-20200818153533540" style="zoom:67%;" />
+<img src="/images/A Short Introduction to Probabilistic Soft Logic/image-20200818153533540.png" alt="image-20200818153533540" width = "50%" height = "50%" />
 
-<img src="A%20Short%20Introduction%20to%20Probabilistic%20Soft%20Logic/image-20200818153629491.png" alt="image-20200818153629491" style="zoom:67%;" />
+<img src="/images/A Short Introduction to Probabilistic Soft Logic/image-20200818153629491.png" alt="image-20200818153629491" width = "50%" height = "50%" />
 
-<img src="A%20Short%20Introduction%20to%20Probabilistic%20Soft%20Logic/image-20200818160349166.png" alt="image-20200818160349166" style="zoom: 67%;" />
+<img src="/images/A Short Introduction to Probabilistic Soft Logic/image-20200818160349166.png" alt="image-20200818160349166" width = "50%" height = "50%" />
 
 **详细查看：**
 
@@ -114,7 +114,7 @@ satisfaction：左边ground atoms的值要大于等于 右边 atoms 的值
 
 以下示例程序对 基于社交网络的简单模型 进行编码，以预测选民的行为，该社交网络具有两种表示朋友 *friend* 和配偶关系 *spouse* 的链接：
 
-<img src="A%20Short%20Introduction%20to%20Probabilistic%20Soft%20Logic/image-20200725162947109.png" alt="image-20200725162947109" style="zoom:80%;" />
+<img src="/images/A Short Introduction to Probabilistic Soft Logic/image-20200725162947109.png" alt="image-20200725162947109" style="zoom:80%;" />
 
 上面的两条 first order logic rules ：从权重分配 认为  **spouses are more likely to vote for the same party than friends**
 
@@ -124,7 +124,7 @@ satisfaction：左边ground atoms的值要大于等于 右边 atoms 的值
 
  Given an interpretation $I$ , the formulas for the relaxation of logical conjunction (∧), disjunction (∨), and negation (¬) are as follows：
 
-<img src="A%20Short%20Introduction%20to%20Probabilistic%20Soft%20Logic/image-20200725171242551.png" alt="image-20200725171242551" style="zoom:80%;" />
+<img src="/images/A Short Introduction to Probabilistic Soft Logic/image-20200725171242551.png" alt="image-20200725171242551" style="zoom:80%;" />
 
 符号上的波浪线指的是从 布尔域 的松弛。
 
@@ -140,7 +140,7 @@ $$ d_r(I)=max\{0,I(r_{body})-I(r_{head})\}$$
 
 考虑这个 Interpretation $I=\{spouse(b,a) \mapsto 1, votesFor(a,p) \mapsto 0.9, votesFor(b,p) \mapsto 1\}$ 
 
- $r$ 表示 the  corresponding  ground  instance  of <img src="A%20Short%20Introduction%20to%20Probabilistic%20Soft%20Logic/image-20200726133404692.png" alt="image-20200726133404692" style="zoom:80%;" />
+ $r$ 表示 the  corresponding  ground  instance  of <img src="/images/A Short Introduction to Probabilistic Soft Logic/image-20200726133404692.png" alt="image-20200726133404692" style="zoom:80%;" />
 
 conjunction 松弛计算 $I(r_{body})=max\{0,1+0.9-1\}=0.9$ 
 
@@ -152,13 +152,13 @@ conjunction 松弛计算 $I(r_{body})=max\{0,1+0.9-1\}=0.9$
 
 设 **R** be the set of all **ground rules** that are instances of a rule in the program。只在 $\ell$ 中有 atoms，$I$ 的概率密度函数 f 为
 
-<img src="A%20Short%20Introduction%20to%20Probabilistic%20Soft%20Logic/image-20200726175458909.png" alt="image-20200726175458909" style="zoom:80%;" />
+<img src="/images/A Short Introduction to Probabilistic Soft Logic/image-20200726175458909.png" alt="image-20200726175458909" style="zoom:80%;" />
 
 其中 $\lambda_r$ 是 rule $r$ 的 权重，$Z$ 是 continuous version of the normalization constant used indiscrete Markov random fields, $p \in \{1,2\}$ 提供两种损失函数的选择
 
 **补充 indiscrete Markov random fields：**
 
-![image-20200726180232206](A%20Short%20Introduction%20to%20Probabilistic%20Soft%20Logic/image-20200726180232206.png)
+![image-20200726180232206](/images/A Short Introduction to Probabilistic Soft Logic/image-20200726180232206.png)
 
 **线性损失函数（p = 1）倾向于 completely satisfy one rule 的 *interpretations*，但对于冲突规则而言，与 satisfaction 的距离要更远一些。而对于 平方损失函数 favors interpretations that satisfy all rules to some degree, which typically have truth values farther away from the extreme values**
 
@@ -177,7 +177,7 @@ PSL 为以下两项关键任务提供了有效的推论 inference  方法
 
 #### MPE Inference
 
-1. PSL中的第一个常见推理任务是 find the most probable interpretation given evidence (MPE)，即，拓展给定部分解释 partial interpretation 下最有可能得到的解释 interpretation。这意味着最大化等式<img src="A%20Short%20Introduction%20to%20Probabilistic%20Soft%20Logic/image-20200726191002638.png" alt="image-20200726191002638" style="zoom:80%;" />中的密度函数 $f(I)$，这等效于最小化指数的求和，同时要满足  the evidence 以及 等式不等式约束。例如，在投票的例子中，给定社交网络和在民意测验中获得的少数人的真实投票行为，MPE推论得出所有其他人中最有可能的投票行为。
+1. PSL中的第一个常见推理任务是 find the most probable interpretation given evidence (MPE)，即，拓展给定部分解释 partial interpretation 下最有可能得到的解释 interpretation。这意味着最大化等式<img src="/images/A Short Introduction to Probabilistic Soft Logic/image-20200726191002638.png" alt="image-20200726191002638" style="zoom:80%;" />中的密度函数 $f(I)$，这等效于最小化指数的求和，同时要满足  the evidence 以及 等式不等式约束。例如，在投票的例子中，给定社交网络和在民意测验中获得的少数人的真实投票行为，MPE推论得出所有其他人中最有可能的投票行为。
 2. 如 Broecheleret 等人[4]所示，可以将此约束优化问题转换为二阶锥规划 [second order cone program（SOCP）](https://en.wikipedia.org/wiki/Second-order_cone_programming)。The SOCP can be solved in time $O(n^{3.5})$,  where **n** is the number of relevant rule groundings, that is, those with non-zero distance to satisfaction. 为了避免操纵 avoid manipulation 不相关 的规则，PSL 遵循一种迭代方法，在构造SOCP之前，根据 evidence atoms  的真值 和非证据原子的当前真值确定一组相关规则 the set of relevant rules 。最初，真值0用于非证据原子。在构造并求解了 SOCP 之后，根据当前的MPE interpretation 更新相关规则集。重复此过程，直到不再激活任何规则 no more rules get activated.
 3. 最近，Bachet等人[1]证明了基于 共识优化  consensus optimization 的 MPE推理 可以实现线性可扩展性 linear scalability  ，同时其准确性仅比上述方法中使用的标准立方时间 SOCP solvers略低。共识优化 将优化问题 分解为 由其他约束联系在一起的独立的小问题。 在 PSL 中，separate subproblems  are  created  for  each  ground  rule。每个 此类子问题 都使用其自己的本地文字副本 own  local  copies  of literals，并引入了约束，这些约束将这些本地副本的真值与相应原始文字的真值等同 equate the truth values of these local copies with those of the corresponding original literal。例如，对于a given person $a$ and party $p$，all groundings of 规则（1）和（2）在原始优化问题中都依赖于 $votesFor(a,p)$，但是通过在共识优化中使用该原子的不同副本而独立。共识优化然后**在**（a）优化本地副本的真值作为在最小化它们对原始目标的贡献以及与原始原子的同意之间进行权衡(minimizing their contribution to the original objective and their agreement with the original atom)     **和** （b）将原始原子的真值更新为它们的本地副本的平均值，其中所有子问题均具有闭式解 之间 **迭代**
 
@@ -199,9 +199,9 @@ Broecheler和Getoor [3]引入了一种采样算法 sampling algorithm 来近似�
 
 对数似然 对 weight $\lambda_i$ 的梯度是：
 
-<img src="A%20Short%20Introduction%20to%20Probabilistic%20Soft%20Logic/image-20200726204526494.png" alt="image-20200726204526494" style="zoom:80%;" />
+<img src="/images/A Short Introduction to Probabilistic Soft Logic/image-20200726204526494.png" alt="image-20200726204526494" style="zoom:80%;" />
 
-<img src="A%20Short%20Introduction%20to%20Probabilistic%20Soft%20Logic/image-20200726204549896.png" alt="image-20200726204549896" style="zoom:80%;" />
+<img src="/images/A Short Introduction to Probabilistic Soft Logic/image-20200726204549896.png" alt="image-20200726204549896" style="zoom:80%;" />
 
 ### 4  Related Work
 
@@ -219,7 +219,7 @@ $similarName(X,Y) \rarr sameEntity(X, Y)$
 
 它表达的逻辑意义可以理解为，如果X和Y具有相似甚至相同的name，那么我们可以说X和Y可能是同一个人，而 $similarName(X, Y)$ 的结果是0-1之间的某个值，具体的逻辑符号通过以下形式定义：
 
-<img src="A%20Short%20Introduction%20to%20Probabilistic%20Soft%20Logic/image-20200725171242551.png" alt="image-20200725171242551" style="zoom:80%;" />
+<img src="/images/A Short Introduction to Probabilistic Soft Logic/image-20200725171242551.png" alt="image-20200725171242551" style="zoom:80%;" />
 
 在PSL模型中，这些具体的逻辑公式将成为马尔科夫网络的特征，并且网络中的每个特征都会与一个权重相关联，决定它在特征之间相互作用的重要性。权重可以手动设置或是基于已有真实数据通过学习算法学习得到。PSL还提供了复杂的推理技术，同时利用软逻辑的特点将知识推理的复杂度优化到多项式时间，而不再是一个NP-HARD问题
 
