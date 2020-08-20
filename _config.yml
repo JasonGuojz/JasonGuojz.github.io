@@ -49,8 +49,6 @@ staticman:
 atom_feed:
   path                   : # blank (default) uses feed.xml
 
-search: true
-
 # SEO Related
 google_site_verification :
 bing_site_verification   :
@@ -255,6 +253,7 @@ permalink: /:categories/:title/
 # paginate: 5 # amount of posts to show
 # paginate_path: /page:num/
 timezone: America/Los_Angeles # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+search: true
 
 
 # Plugins
