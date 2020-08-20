@@ -36,45 +36,45 @@ Atom 原子公式：[命题逻辑]([https://zh.wikipedia.org/wiki/%E5%91%BD%E9%A
 
 ---------
 
-<img src="/images/A Short Introduction to Probabilistic Soft Logic/image-20200817235935237.png" alt="image-20200817235935237" width = "50%" height = "50%" />
+<img src="/images/A Short Introduction to Probabilistic Soft Logic/image-20200817235935237.png" alt="image-20200817235935237" width = "40%" height = "40%" />
 
-<img src="/images/A Short Introduction to Probabilistic Soft Logic/image-20200818094838660.png" alt="image-20200818094838660" width = "50%" height = "50%" />
+<img src="/images/A Short Introduction to Probabilistic Soft Logic/image-20200818094838660.png" alt="image-20200818094838660" width = "40%" height = "40%" />
 
-<img src="/images/A Short Introduction to Probabilistic Soft Logic/image-20200818094909425.png" alt="image-20200818094909425" width = "50%" height = "50%" />
-
-
-
-<img src="/images/A Short Introduction to Probabilistic Soft Logic/image-20200818095543339.png" alt="image-20200818095543339" width = "50%" height = "50%" />
+<img src="/images/A Short Introduction to Probabilistic Soft Logic/image-20200818094909425.png" alt="image-20200818094909425" width = "40%" height = "40%" />
 
 
 
-<img src="/images/A Short Introduction to Probabilistic Soft Logic/image-20200818095145583.png" alt="image-20200818095145583" width = "50%" height = "50%" />
+<img src="/images/A Short Introduction to Probabilistic Soft Logic/image-20200818095543339.png" alt="image-20200818095543339" width = "40%" height = "40%" />
 
-<img src="/images/A Short Introduction to Probabilistic Soft Logic/image-20200818095205647.png" alt="image-20200818095205647" width = "50%" height = "50%" />
 
-<img src="/images/A Short Introduction to Probabilistic Soft Logic/image-20200818104152253.png" alt="image-20200818104152253" width = "50%" height = "50%" />
 
-<img src="/images/A Short Introduction to Probabilistic Soft Logic/image-20200818152654995.png" alt="image-20200818152654995" width = "50%" height = "50%" />
+<img src="/images/A Short Introduction to Probabilistic Soft Logic/image-20200818095145583.png" alt="image-20200818095145583" width = "40%" height = "40%" />
+
+<img src="/images/A Short Introduction to Probabilistic Soft Logic/image-20200818095205647.png" alt="image-20200818095205647" width = "40%" height = "40%" />
+
+<img src="/images/A Short Introduction to Probabilistic Soft Logic/image-20200818104152253.png" alt="image-20200818104152253" width = "40%" height = "40%" />
+
+<img src="/images/A Short Introduction to Probabilistic Soft Logic/image-20200818152654995.png" alt="image-20200818152654995" width = "40%" height = "40%" />
 
 定义：
 
-<img src="/images/A Short Introduction to Probabilistic Soft Logic/image-20200818155834481.png" alt="image-20200818155834481" width = "50%" height = "50%" />
+<img src="/images/A Short Introduction to Probabilistic Soft Logic/image-20200818155834481.png" alt="image-20200818155834481" width = "40%" height = "40%" />
 
 
 
-<img src="/images/A Short Introduction to Probabilistic Soft Logic/image-20200818154410912.png" alt="image-20200818154410912" width = "50%" height = "50%" />
+<img src="/images/A Short Introduction to Probabilistic Soft Logic/image-20200818154410912.png" alt="image-20200818154410912" width = "40%" height = "40%" />
 
 **使得 Rules will behave like boolean logic** (布尔逻辑用真值时，条件语句的真值表一致)
 
-<img src="/images/A Short Introduction to Probabilistic Soft Logic/image-20200818153523164.png" alt="image-20200818153523164" width = "50%" height = "50%" />
+<img src="/images/A Short Introduction to Probabilistic Soft Logic/image-20200818153523164.png" alt="image-20200818153523164" width = "40%" height = "40%" />
 
 satisfaction：左边ground atoms的值要大于等于 右边 atoms 的值
 
-<img src="/images/A Short Introduction to Probabilistic Soft Logic/image-20200818153533540.png" alt="image-20200818153533540" width = "50%" height = "50%" />
+<img src="/images/A Short Introduction to Probabilistic Soft Logic/image-20200818153533540.png" alt="image-20200818153533540" width = "40%" height = "40%" />
 
-<img src="/images/A Short Introduction to Probabilistic Soft Logic/image-20200818153629491.png" alt="image-20200818153629491" width = "50%" height = "50%" />
+<img src="/images/A Short Introduction to Probabilistic Soft Logic/image-20200818153629491.png" alt="image-20200818153629491" width = "40%" height = "40%" />
 
-<img src="/images/A Short Introduction to Probabilistic Soft Logic/image-20200818160349166.png" alt="image-20200818160349166" width = "50%" height = "50%" />
+<img src="/images/A Short Introduction to Probabilistic Soft Logic/image-20200818160349166.png" alt="image-20200818160349166" width = "40%" height = "40%" />
 
 **详细查看：**
 
