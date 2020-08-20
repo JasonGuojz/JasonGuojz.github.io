@@ -8,6 +8,6 @@ redirect_from:
 ---
 
 
-**last updated on August 20
+**last updated on August 20**
 
 [CV homepage](https://jasonguojz.github.io/files/cv.pdf)
