@@ -1,4 +1,15 @@
-## A Short Introduction to Probabilistic Soft Logic
+---
+title: 'A Short Introduction to Probabilistic Soft Logic'
+date: 2020-07-01
+permalink: /posts/2020/07/A-Short-Introduction-to-Probabilistic-Soft-Logic/
+tags:
+  - soft truth values
+  - first order logic rules
+  - relational domain
+  - constrained continuous Markov Random Field
+---
+
+# A Short Introduction to Probabilistic Soft Logic
 
 #### [project address](https://psl.linqs.org/)
 
@@ -8,7 +19,7 @@
 
 统计关系学  statistical relational learning
 
-### 专有名词
+## 专有名词
 
 rule learning 规则学习
 
@@ -96,11 +107,11 @@ satisfaction：左边ground atoms的值要大于等于 右边 atoms 的值
 4. constructing a HL-MRF
 5. making prediction
 
-### Abstract
+## Abstract
 
 概率软逻辑（ Probabilistic soft logic  PSL）是用于**关系域 relational domains 中**的 **集体概率推理 collective, probabilistic reasoning 的框架**。 PSL 将**一阶逻辑规则 first order logic rules**  用作**图模型 graphical models 的模板语言 template language**，该图模型**针对区间为 [0, 1] 的具有软真值 soft truth values  的随机变量**。在此设置下的**推断是一项连续的优化任务 Inference in this setting is a continuous optimization task** 。该文概述了 PSL 语言及其**推理和权重学习技术** techniques for inference and weight learning 。
 
-### 1  Introduction
+## 1  Introduction
 
 人工智能中的许多问题都需要 **处理关系结构和不确定性 relational structure and uncertainty** 。因此，对促进**具有关系结构的复杂概率模型 probabilistic models with relational structure** 的开发的工具的需求不断增长。这些工具应将高级建模语言与通用算法相结合，以在最终的概率模型或概率程序中进行 推断 inference 。最近开发的框架，基于图模型，关系逻辑或编程语言的思想 graphical models, relational logic, or programming languages [6, 5]
 
@@ -108,7 +119,7 @@ satisfaction：左边ground atoms的值要大于等于 右边 atoms 的值
 
 下面介绍 PSL建模语言 及其 用于最可能的解释和边际推断 most probable explanation and marginal inference 的 高效算法的概述。
 
-### 2  PSL Semantics
+## 2  PSL Semantics
 
 一个PSL程序由一组一阶逻辑规则组成，这些规则具有连接体 conjunctive bodies 和单个文字头 single literal heads 。**每条规则 rule 都有一个相关的非负权重**，可以捕获该规则 rule 的相对重要性。
 
@@ -166,7 +177,7 @@ conjunction 松弛计算 $I(r_{body})=max\{0,1+0.9-1\}=0.9$
 
 这使人们可以编码其他领域知识  domain knowledge ，例如 a predicate being functional. 举例：在上面选民的例子中，每个选民 $a$ 不能投票超过一个参与党派 $p_1,p_2,...,p_n$，这就给了函数 $votesFor(.,.)$ 添加了约束
 
-### 3  Inference and Learning in PSL
+## 3  Inference and Learning in PSL
 
 PSL 为以下两项关键任务提供了有效的推论 inference  方法
 
@@ -175,13 +186,13 @@ PSL 为以下两项关键任务提供了有效的推论 inference  方法
 
 **PSL程序的形式以及软真值的使用  可确保  非零密度nonzero density的解释空间interpretations space  形成   凸多面体 convex polytope**。两种设置的推理算法都利用  凸的性质  来实现效率。此外，**PSL还提供了从标记数据中学习权重的方法**。我们在这里总结了主要思想，并参考相应的技术文章以获取完整详细信息
 
-#### MPE Inference
+### MPE Inference
 
 1. PSL中的第一个常见推理任务是 find the most probable interpretation given evidence (MPE)，即，拓展给定部分解释 partial interpretation 下最有可能得到的解释 interpretation。这意味着最大化等式<img src="/images/A Short Introduction to Probabilistic Soft Logic/image-20200726191002638.png" alt="image-20200726191002638" style="zoom:80%;" />中的密度函数 $f(I)$，这等效于最小化指数的求和，同时要满足  the evidence 以及 等式不等式约束。例如，在投票的例子中，给定社交网络和在民意测验中获得的少数人的真实投票行为，MPE推论得出所有其他人中最有可能的投票行为。
 2. 如 Broecheleret 等人[4]所示，可以将此约束优化问题转换为二阶锥规划 [second order cone program（SOCP）](https://en.wikipedia.org/wiki/Second-order_cone_programming)。The SOCP can be solved in time $O(n^{3.5})$,  where **n** is the number of relevant rule groundings, that is, those with non-zero distance to satisfaction. 为了避免操纵 avoid manipulation 不相关 的规则，PSL 遵循一种迭代方法，在构造SOCP之前，根据 evidence atoms  的真值 和非证据原子的当前真值确定一组相关规则 the set of relevant rules 。最初，真值0用于非证据原子。在构造并求解了 SOCP 之后，根据当前的MPE interpretation 更新相关规则集。重复此过程，直到不再激活任何规则 no more rules get activated.
 3. 最近，Bachet等人[1]证明了基于 共识优化  consensus optimization 的 MPE推理 可以实现线性可扩展性 linear scalability  ，同时其准确性仅比上述方法中使用的标准立方时间 SOCP solvers略低。共识优化 将优化问题 分解为 由其他约束联系在一起的独立的小问题。 在 PSL 中，separate subproblems  are  created  for  each  ground  rule。每个 此类子问题 都使用其自己的本地文字副本 own  local  copies  of literals，并引入了约束，这些约束将这些本地副本的真值与相应原始文字的真值等同 equate the truth values of these local copies with those of the corresponding original literal。例如，对于a given person $a$ and party $p$，all groundings of 规则（1）和（2）在原始优化问题中都依赖于 $votesFor(a,p)$，但是通过在共识优化中使用该原子的不同副本而独立。共识优化然后**在**（a）优化本地副本的真值作为在最小化它们对原始目标的贡献以及与原始原子的同意之间进行权衡(minimizing their contribution to the original objective and their agreement with the original atom)     **和** （b）将原始原子的真值更新为它们的本地副本的平均值，其中所有子问题均具有闭式解 之间 **迭代**
 
-#### Computing Marginal Distributions
+### Computing Marginal Distributions
 
 **The second common inference task in PSL** ：
 
@@ -193,7 +204,7 @@ Broecheler和Getoor [3]引入了一种采样算法 sampling algorithm 来近似�
 
 在PSL中，边际分布 marginal distributions 是通过 hit-and-run Markov chain Monte Carlo scheme(命中并运行的马尔可夫链蒙特卡洛斯) 后 收集采样点的直方图来估算的。 从如上所述有效地获得的 **MAP状态** 开始，算法首先通过随机 均匀地采样 一个方向，然后在该多面体内的 线段line segment上 采样一个点来探索凸多面体。由于一般方案可能会卡在多面体的拐角处 get stuck in corners of the polytope，在拐角处大多数方向都不指向多面体内部，这些情况是可以检测到，应用松弛方法将 方向采样限制为仅在可行方向采样
 
-#### Weight Learning
+### Weight Learning
 
 可以通过**最大似然估计**来学习规则的权重 the weights of rules 
 
@@ -203,11 +214,11 @@ Broecheler和Getoor [3]引入了一种采样算法 sampling algorithm 来近似�
 
 <img src="/images/A Short Introduction to Probabilistic Soft Logic/image-20200726204549896.png" alt="image-20200726204549896" style="zoom:80%;" />
 
-### 4  Related Work
+## 4  Related Work
 
 
 
-### 总结
+## 总结
 
 细节上，PSL使用“软”逻辑作为其逻辑组成部分，以马尔可夫网络作为其统计模型。
 
