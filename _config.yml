@@ -83,7 +83,7 @@ analytics:
 # Site Author
 author:
   name             : "Guo Jiazhen"
-  avatar           : "profile.png" #/assets/images/bio-photo.jpg
+  avatar           : "junior.png" 
   bio              : "Senior student at Zhejiang University"
   location         : "Hangzhou, China"
   employer         :
