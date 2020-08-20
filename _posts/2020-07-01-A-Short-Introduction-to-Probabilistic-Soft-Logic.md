@@ -9,9 +9,7 @@ tags:
   - constrained continuous Markov Random Field
 ---
 
-A Short Introduction to Probabilistic Soft Logic
-======
-
+『A Short Introduction to Probabilistic Soft Logic』阅读笔记
 #### [project address](https://psl.linqs.org/)
 
 [code](https://github.com/linqs/psl)
