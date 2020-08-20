@@ -36,7 +36,7 @@ Atom 原子公式：[命题逻辑]([https://zh.wikipedia.org/wiki/%E5%91%BD%E9%A
 
 ---------
 
-<img src="/images/A Short Introduction to Probabilistic Soft Logic/image-20200817235935237.png" alt="image-20200817235935237" style="zoom: 67%;" />
+<img src="/images/A Short Introduction to Probabilistic Soft Logic/image-20200817235935237.png" alt="image-20200817235935237" style="zoom: 50%;" />
 
 <img src="A%20Short%20Introduction%20to%20Probabilistic%20Soft%20Logic/image-20200818094838660.png" alt="image-20200818094838660" style="zoom: 67%;" />
 
