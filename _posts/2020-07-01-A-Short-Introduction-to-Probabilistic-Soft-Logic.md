@@ -1,5 +1,5 @@
 ---
-title: 'A Short Introduction to Probabilistic Soft Logic'
+title: 'A Short Introduction to Probabilistic Soft Logic阅读笔记'
 date: 2020-07-01
 permalink: /posts/2020/07/A-Short-Introduction-to-Probabilistic-Soft-Logic/
 tags:
@@ -9,32 +9,9 @@ tags:
   - constrained continuous Markov Random Field
 ---
 
-This is a sample blog post. Lorem ipsum I can't remember the rest of lorem ipsum and don't have an internet connection right now. Testing testing testing this blog post. Blog posts are cool.
-
-Headings are cool
-======
-
-You can have many headings
-======
-
-Aren't headings cool?
-------
-
-This is a sample blog post. Lorem ipsum I can't remember the rest of lorem ipsum and don't have an internet connection right now. Testing testing testing this blog post. Blog posts are cool.
-
-Headings are cool
-======
-
-You can have many headings
-======
-
-Aren't headings cool?
-------
-
-『A Short Introduction to Probabilistic Soft Logic』阅读笔记
-
 test
 ======
+
 #### [project address](https://psl.linqs.org/)
 
 [code](https://github.com/linqs/psl)
@@ -260,4 +237,6 @@ $similarName(X,Y) \rarr sameEntity(X, Y)$
 
 
 
-#### [reference](https://www.jianshu.com/p/a7b57204c391)
+### [reference](https://www.jianshu.com/p/a7b57204c391)
+dad
+------
