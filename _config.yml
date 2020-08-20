@@ -306,3 +306,13 @@ compress_html:
   clippings: all
   ignore:
     envs: development
+    
+# KaTeX
+kramdown:
+  input: GFM
+  auto_ids: true
+  # parse_block_html: true
+  math_engine: mathjax
+  # math_engine: nil # for katex (because kramdown defaults to mathjax)
+
+excerpt_separator: '<!--more-->'
