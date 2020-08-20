@@ -9,8 +9,16 @@ tags:
   - constrained continuous Markov Random Field
 ---
 
-test
+大撒大撒大苏打
+
+A Short Introduction to Probabilistic Soft Logic
 ======
+
+可以为用户之间的不同类型的关系（例如友谊或家庭关系）建模，而且还可以对多种相似性概念 
+ground out all rules：将predicate中的变量都用实例填充
+convert ground rules to hinge-loss functions
+constructing a HL-MRF
+making prediction
 
 #### [project address](https://psl.linqs.org/)
 
@@ -235,8 +243,5 @@ $similarName(X,Y) \rarr sameEntity(X, Y)$
 
 在PSL模型中，这些具体的逻辑公式将成为马尔科夫网络的特征，并且网络中的每个特征都会与一个权重相关联，决定它在特征之间相互作用的重要性。权重可以手动设置或是基于已有真实数据通过学习算法学习得到。PSL还提供了复杂的推理技术，同时利用软逻辑的特点将知识推理的复杂度优化到多项式时间，而不再是一个NP-HARD问题
 
-
-
 ### [reference](https://www.jianshu.com/p/a7b57204c391)
-dad
-------
+
