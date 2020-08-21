@@ -2,7 +2,7 @@
 main:
         
   - title: "Blog Posts"
-    url: /year-archive/
+    url: /blog
     
   - title: "CV"
     url: /files/cv.pdf
