@@ -80,7 +80,7 @@ analytics:
 
 # Site Author
 author:
-  name             : "Guo Jiazhen"
+  name             : "Guo Jiazhen(郭家侦)"
   avatar           : "profile.png" 
   bio              : "Senior student at Zhejiang University"
   location         : "Hangzhou, China"
@@ -250,7 +250,7 @@ sass:
 
 # Outputting
 permalink: /:categories/:title/
-# paginate: 5 # amount of posts to show
+paginate: 5 # amount of posts to show
 # paginate_path: /page:num/
 timezone: America/Los_Angeles # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
