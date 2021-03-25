@@ -14,10 +14,10 @@ Previously, I collaborated with [Prof. Chunguang Li](https://person.zju.edu.cn/c
 ## Research Interests
 Currently I'm focusing on knowledge extraction and weak supervision relayed topics.
 ## Selected Awards
-- National Scholarship (Official Honor of the Highest Level) \rightline{2018}
-- First-Class Scholarship for Outstanding Merits, Zhejiang University.  \rightline{2018}
-- Third -Class Scholarship for Outstanding Merits, Zhejiang University.  \rightline{2019}
-- Provincial Government Scholarship. \rightline{2020}
-- Second -Class Scholarship for Outstanding Merits, Zhejiang University. \rightline{2020}
+- 2018 / National Scholarship (Official Honor of the Highest Level)
+- 2018 / First-Class Scholarship for Outstanding Merits, Zhejiang University.
+- 2019 / Third -Class Scholarship for Outstanding Merits, Zhejiang University. 
+- 2020 / Provincial Government Scholarship. 
+- 2020 / Second -Class Scholarship for Outstanding Merits, Zhejiang University. 
 
 ## Publications
