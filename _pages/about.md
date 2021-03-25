@@ -16,7 +16,9 @@ Currently I'm focusing on knowledge extraction and weak supervision relayed topi
 ## Selected Awards
 - National Scholarship (Official Honor of the Highest Level)
 2018
-- Zhejiang University First Class Scholarship                                                                              2018
-- Zhejiang University Third Class Scholarship                                                                              2019
+- First-Class Scholarship for Outstanding Merits, Zhejiang University. \quad 2018
+- Third -Class Scholarship for Outstanding Merits, Zhejiang University. \quad 2019
+- Provincial Government Scholarship. \quad 2020
+- Second -Class Scholarship for Outstanding Merits, Zhejiang University. \quad 2020
 
 ## Publications
